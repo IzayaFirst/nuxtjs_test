@@ -1,0 +1,27 @@
+{
+  "name": "nuxtjs_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzayaFirst/nuxtjs_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzayaFirst/nuxtjs_test/issues"
+  },
+  "homepage": "https://github.com/IzayaFirst/nuxtjs_test#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bulma": "^0.6.1",
+    "express": "^4.16.2",
+    "nuxt": "^1.0.0-rc11"
+  }
+}

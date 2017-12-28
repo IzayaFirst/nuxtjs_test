@@ -1,0 +1,47 @@
+body, html {
+  font-family: 'Kanit', sans-serif;
+}
+
+.main-section {
+  background: url('~/assets/topbg.jpg') top center;
+  height: 100vh;
+  padding: 35px 0;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.main-section > .container > .txt-center > .title {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.search-form {
+  width: 50%;
+  margin: 15px auto;
+  display: flex;
+}
+.search {
+  width: 70%
+}
+
+.search-btn-section {
+  width: 30%
+}
+
+.result-section {
+  margin-top: 15px;
+}
+.card-content {
+  height: 100px;
+}
+@media only screen and (max-width: 768px) {
+  .main-section > .container > .txt-center > .title {
+    width: 80%;
+  }
+  .search-form {
+    width: 70%;
+  }
+}
